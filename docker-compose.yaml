@@ -1,0 +1,12 @@
+services:
+  app:
+    container_name: octom-app
+    build: ./
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - ./public:/app/public
+      - /app/node_modules
+    stdin_open: true
+    tty: true
