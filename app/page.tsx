@@ -1,5 +1,12 @@
-export default function Home() {
+import OverviewCards from "@/components/main/OverviewCards";
+
+export default function Dashboard() {
   return (
-    <main className="h-full w-full grid grid-cols-[94px_1fr] bg-white"></main>
+    <div className="w-full grid gap-[40px] grid-cols-[1fr_396px] h-full bg-secondary ">
+      <div className="w-full h-full py-[30px] pl-[40px]">
+        <OverviewCards />
+      </div>
+      <div className="w-full h-full bg-white pr-[42px]">RightSidebar</div>
+    </div>
   );
 }

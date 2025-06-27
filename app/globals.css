@@ -10,19 +10,16 @@ body {
 }
 
 @theme {
-  --color-dark: hsl(210, 11%, 12%);
-  --color-darker: hsl(210, 11%, 7%);
-  --color-darkish: hsl(210, 11%, 15%);
-  --color-blue: hsl(217, 71%, 53%);
-  --color-pink: hsl(277, 63%, 53%);
-  --color-teal: hsl(170, 92%, 65%);
-  --color-gray: hsl(0, 0%, 92%);
-  --color-lightgray: hsl(0, 0%, 67%);
-  --color-red: hsl(3, 90%, 59%);
-  --color-yellow: hsl(51, 100%, 65%);
-
-  --color-white: hsl(0, 0%, 100%);
-  --color-black: hsl(0, 0%, 12%);
-  --color-grayish: hsl(210, 11%, 44%);
-  --color-lightgrayish: hsl(0, 0%, 92%);
+  --color-sidebar-color: #fbfaff;
+  --color-secondary: #f3f4f8;
+  --color-primary: #23235f;
+  --color-lightgray: #f3f7fa;
+  --color-lightblue: #e7e7ff;
+  --color-dark-blue: #5150f9;
+  --color-white-alt: #f3f7fd;
+  --color-gray-alt: #8c97a8;
+  --color-black-alt: #1e1e1e;
+  --color-gray: #e8edf1;
+  --color-green: #299702;
+  --color-blue-gray: #768396;
 }
