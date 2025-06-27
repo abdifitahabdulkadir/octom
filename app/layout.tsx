@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.className} antialiased w-full grid grid-cols-[94px_1fr] bg-secondary`}
+        className={`${dmSans.className} antialiased w-full grid grid-cols-[94px_1fr] bg-secondary h-full`}
       >
         <LeftSidebar />
         <div className="w-full overflow-auto grid grid-rows-[76px_1fr] ">

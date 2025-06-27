@@ -3,7 +3,7 @@ import OverviewCardItem from "./OverviewCardItem";
 
 export default function OverviewCards() {
   return (
-    <ol className="w-full flex items-center gap-[24px]">
+    <ol className="w-full flex items-center justify-between">
       {OVERVIEW_CARDS.map((card, index) => {
         return <OverviewCardItem {...card} key={index} />;
       })}
