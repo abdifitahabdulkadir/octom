@@ -4,18 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { Tooltip } from "react-tooltip";
-interface Props {
-  image_url: string;
-  href: string;
-  alt: string;
-  inactiveIcon: string;
-}
+
 export default function LeftSidebarNavItem({
   image_url,
   inactiveIcon,
   href,
   alt,
-}: Props) {
+}: NavItemType) {
   const pathName = usePathname();
 
   return (

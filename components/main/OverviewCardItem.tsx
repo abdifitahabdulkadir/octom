@@ -1,14 +1,5 @@
 import Image from "next/image";
 
-interface Props {
-  title: string;
-  metricUrl: string;
-  iconUrl: string;
-  value: string;
-  change: string;
-  changeLabel: string;
-  id: number;
-}
 export default function OverviewCardItem({
   title,
   metricUrl,
@@ -16,8 +7,7 @@ export default function OverviewCardItem({
   value,
   change,
   changeLabel,
-  id,
-}: Props) {
+}: OveriewCardType) {
   return (
     <li className="bg-white rounded-[16px] flex flex-col gap-[30px] w-[274px] h-[210px] px-[20px] py-[22px]">
       <div className="flex items-center gap-[12px] pb-[26px] border-b border-gray">

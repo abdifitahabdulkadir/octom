@@ -23,4 +23,19 @@ body {
   --color-green: #299702;
   --color-blue-gray: #768396;
   --color-blue: #1ea7ff;
+  --color-dark-sky: #5051f9;
+  --color-cream: #fbfaff;
+  --color-light-mint: #94a2bc;
+  --color-dusk-blue: #5453f6;
+  --color-light-beige: #e8edf3;
+  --color-dark-forest: #778399;
+  --color-lightgray-alt: #e3e8ee;
+  --color-light-teal: #23b2ff;
+  --color-wheat: #edecfe;
+}
+
+@layer utilities {
+  .taskDropShadow {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }

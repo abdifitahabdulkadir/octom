@@ -1,4 +1,4 @@
-export const LEFTSIDEBAR_NAV_LINKS = [
+export const LEFTSIDEBAR_NAV_LINKS: NavItemType[] = [
   {
     image_url: "/icons/dashboard-white.svg",
     href: "/",
@@ -37,9 +37,8 @@ export const LEFTSIDEBAR_NAV_LINKS = [
   },
 ];
 
-export const OVERVIEW_CARDS = [
+export const OVERVIEW_CARDS: OveriewCardType[] = [
   {
-    id: 1,
     title: "Task Completed",
     iconUrl: "/icons/star.svg",
     metricUrl: "/icons/blue-line.svg",
@@ -48,7 +47,6 @@ export const OVERVIEW_CARDS = [
     changeLabel: "from last week",
   },
   {
-    id: 2,
     title: "New Task",
     metricUrl: "/icons/sky-line.svg",
     iconUrl: "/icons/new-task.svg",
@@ -57,12 +55,32 @@ export const OVERVIEW_CARDS = [
     changeLabel: "from last week",
   },
   {
-    id: 3,
     title: "Project Done",
     metricUrl: "/icons/orange-line.svg",
     iconUrl: "/icons/task-done.svg",
     value: "10",
     change: "08+",
     changeLabel: "from last week",
+  },
+];
+
+export const TASKS: TaskType[] = [
+  {
+    startTime: "9:00 am",
+    title: "Search Inspiration for project",
+    link: "https://www.uistore.com",
+    comments: 8,
+    completion: 24,
+    reminder: true,
+    icon: "/icons/play-icon.svg",
+  },
+  {
+    startTime: "3:00 am",
+    title: "Search Inspiration for project",
+    link: "https://www.uistore.org",
+    comments: 5,
+    completion: 60,
+    reminder: true,
+    icon: "/icons/play-icon.svg",
   },
 ];
